@@ -14,12 +14,6 @@ def simplePublisher():
     properties=sensor_properties()
     array=array_of_accepted_sensors()
 
-    array.Quality_val=[]
-    array.sensor_val=[]
-    array.min_range_val=[]
-    array.max_range_val=[]
-    array.range_val=[]
-
     rospy.loginfo("Publisher node started, now publishing messages")
     while not rospy.is_shutdown():
 
