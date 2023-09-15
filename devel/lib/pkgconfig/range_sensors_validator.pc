@@ -1,0 +1,8 @@
+prefix=/home/shebl/ROS_session_1/devel
+
+Name: range_sensors_validator
+Description: Description of range_sensors_validator
+Version: 0.0.0
+Cflags: -I/home/shebl/ROS_session_1/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs
